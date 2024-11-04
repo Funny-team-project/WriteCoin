@@ -12,12 +12,12 @@ type ДанныеПодключения =
 
 type СодержимоеФайла =
     | Строка of string
-    | Байты of byte
+    | Байты of byte[]
 type ИконкаФайла =
-    | Байты of byte
+    | Байты of byte[]
     | Путь of string
 type ИзображениеСервера =
-    | Байты of byte
+    | Байты of byte[]
     | Путь of string
 
 type Сервер =

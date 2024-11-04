@@ -1,4 +1,4 @@
 module Результаты
 
-exception Ошибка of string
+type Ошибка = string
 type Успех = string
